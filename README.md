@@ -6,7 +6,7 @@ Describe the JavaScript interaction that you have created for the 1-page website
 2. Scrolling button to contact section
    - there is a button below the header that can bring user straight to the contact infromation without needing to go through the form.
 3. Signature pad
-- provides an interactive digital signature input and redo your signature
+   - provides an interactive digital signature input and redo your signature
   
 List out your references to create your 1-page website. 
 1. https://www.w3schools.com/css/css_font.asp
