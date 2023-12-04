@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RM1 Campaign Program</title>
+  <link rel="stylesheet" href="individual-assignment-css.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="image">
+          <img src="download.png">
+        </div>
+        <div class="text">
+          <h1>RM1 CAMPAIGN PROGRAM</h1>
+        </div>
+      </div>
+    <p1>Let your contributions be perpetual for the pleasure of Allah SWT</p1>
+    <br><br>
+    <p2>“The example of those who spend their wealth in the 
+        way of Allah is like a seed [of grain] which grows seven 
+        spikes; in each spike is a hundred grains. And Allah 
+        multiplies [His reward] for whom He wills. And Allah is 
+        all-Encompassing and Knowing.”
+        <br>Al-Baqarah: 261</p2>
+        </header>
+        
+        <button type="button" onclick="scrollToContact()">Scroll to Contact</button>
+
+  <section>
+    <form id="deductionForm">
+    
+    <h2>Participation in RM1 Campaign — Monthly Salary Deduction</h2>
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="staffNo">Staff No.</label>
+      <input type="text" id="staffNo" name="staffNo" required>
+
+      <label for="department">K/C/D/I/O</label>
+      <input type="text" id="department" name="department" required>
+
+      <label for="contactNo">Contact No.</label>
+      <input type="tel" id="contactNo" name="contactNo" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="deductionAmount">Amount to be Deducted (RM)</label>
+      <input type="text" id="deductionAmount" name="deductionAmount" required>
+
+      <label for="effectiveFrom">Deduction Effective From (Month/Year)</label>
+      <input type="month" id="effectiveFrom" name="effectiveFrom" required>
+
+      <label for="effectiveUntil">Deduction Effective Until (Month/Year or Until Further Notice)</label>
+      <input type="text" id="effectiveUntil" name="effectiveUntil" required>
+
+      <section class="signature-component">
+        <h1>Draw Signature</h1>
+        <h2>with mouse or touch</h2>
+    
+        <canvas id="signature-pad" width="400" height="200"></canvas>
+    
+        <div>
+          <button id="save">Save</button>
+          <button id="clear">Clear</button>
+        </div>
+      </section>
+
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+
+    <section class="contact-section" id="contactSection">
+    <h2>IIUM Endowment Fund Contact Information</h2>
+    <p>Level 3, Rectory
+       <br>International Islamic University Malaysia
+       <br>P.O. Box 10
+       <br>50728 Kuala Lumpur
+    </p>
+    <p>Tel: 03-6196 4268</p>
+    <p>Email: ief@iium.edu.my</p>
+    <p>Website: www.iium.edu.my/ief</p>
+    <p>Facebook: www.facebook.com/ief.official/</p>
+
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="individual-assignment-java.js"></script>
+</body>
+</html>
